@@ -39,3 +39,10 @@
 .icon{
   margin-bottom: 30px;
 }
+
+@media (max-width: 1024px) {
+  .App {
+    padding: 0px 0px;
+  }
+  
+}

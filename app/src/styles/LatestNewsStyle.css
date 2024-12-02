@@ -19,3 +19,21 @@
     width: 100%;
     gap: 10px;
 }
+
+@media (max-width: 1024px) {
+    .news-list-main .news-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .news-list-main {
+        margin-top: 50px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .news-list-main .news-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -34,7 +34,7 @@
   height: 300px;
 }
 
-.news-grid-main .tile:hover{
+.news-grid-main .tile:hover {
   transform: translateY(-3px);
 }
 
@@ -91,4 +91,25 @@
 
 .news-grid-main .large-full-card .card-image {
   height: 300px;
+}
+
+@media (max-width:1024px) {
+  .news-grid-main{
+    padding: 20px;
+  }
+
+  .news-grid-main .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (max-width: 578px) {
+  .news-grid-main .grid {
+    display: block;
+  }
+
+  .news-grid-main .tile {
+    margin-bottom: 20px;
+  }
 }

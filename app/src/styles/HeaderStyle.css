@@ -97,3 +97,32 @@
     font-size: 15px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .header-main .image-card {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .header-main .image-card .info-content {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 578px) {
+    .header-main .image-card .header-image {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .header-main .topic-card .title-2 {
+        font-size: 20px;
+        font-weight: 500;
+        color: #00264d;
+    }
+
+    .header-main .topic-card .title-1 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+}

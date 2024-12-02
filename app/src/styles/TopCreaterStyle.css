@@ -42,3 +42,10 @@
     font-weight: 500;
     color: #0059b3;
 }
+
+@media (max-width: 1024px) {
+    .top-creator-name {
+        margin-top: 50px;
+        padding: 20px;
+    }
+}

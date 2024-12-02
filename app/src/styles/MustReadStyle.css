@@ -46,3 +46,26 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+@media (max-width: 1024px) {
+
+    .must-read-main {
+        text-align: left;
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .must-read-main .card-grid {
+        display: block;
+        height: 100%;
+    }
+
+    .must-read-main .large-full-card {
+        margin-bottom: 20px;
+    }
+
+    .must-read-main .card-grid .rows .rows-image {
+        height: 200px;
+    }
+
+}

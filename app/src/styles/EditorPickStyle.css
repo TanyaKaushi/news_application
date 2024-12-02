@@ -30,3 +30,28 @@
     object-fit: cover;
     border-radius: 10px;
 }
+
+@media (max-width: 1024px) {
+    .editor-pick-main {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .editor-pick-main .editor-pick-grid {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .editor-pick-main .editor-pick-grid .row-two {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 578px) {
+    .editor-pick-main .editor-pick-grid .row-two {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

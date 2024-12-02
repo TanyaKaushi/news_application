@@ -17,6 +17,22 @@ const TopCreaters = () => {
     speed: 2000,
     autoplaySpeed: 5000,
     cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1450,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 578,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (

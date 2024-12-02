@@ -42,3 +42,38 @@
     margin-right: 10px;
 }
 
+@media (max-width: 1024px) {
+    .Navbar-main{
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+
+    .navbar-toggler {
+        font-size: 13px !important;
+        background-color: #ffffff !important;
+        padding: 5px 10px !important;
+    }
+    
+}
+
+@media (max-width: 990px) {
+    .Navbar-main .link {
+        margin-bottom: 20px;
+    }
+
+    .Navbar-main .link::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        transition: width 2s ease;
+        background-color: white;
+    }
+
+    .Navbar-main .link:hover::after {
+        width: 40%;
+    }
+}
