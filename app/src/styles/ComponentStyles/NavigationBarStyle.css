@@ -76,4 +76,11 @@
     .Navbar-main .link:hover::after {
         width: 40%;
     }
+
+    .Navbar-main .logo-image {
+        height: 40px;
+        width: 100%;
+        object-fit: cover;
+    }
 }
+
