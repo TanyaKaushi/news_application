@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "auto", textAlign: "center", marginTop: "280px" }}>
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", margin: "auto", textAlign: "center", marginTop: "300px" }}>
           <img src={images.loading} width="100px" height="100px" />
         </div>
       ) : (
