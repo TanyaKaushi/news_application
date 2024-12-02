@@ -37,7 +37,7 @@
     font-size: 15px;
     padding: 0px 200px 0px 20px;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 1px solid rgb(230, 230, 230);
 }
 
 .footer-main .subscribe-card .subscribe-btn {
@@ -165,5 +165,9 @@
 
     .footer-main .links-card .logo-part .social-media {
         justify-content: center;
+    }
+
+    .footer-main .subscribe-card .search-input {
+        padding: 0px 100px 0px 20px;
     }
 }
