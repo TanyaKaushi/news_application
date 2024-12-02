@@ -1,0 +1,44 @@
+.top-creator-name {
+    margin-top: 100px;
+}
+
+.top-creator-name .title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #00264d;
+}
+
+.top-creator-name .card-grid {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: start;
+}
+
+.top-creator-name .card-grid .col-one img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.top-creator-name .card-grid .col-two {
+    display: block;
+    text-align: left;
+}
+
+.top-creator-name .card-grid .col-two .creator-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #00264d;
+}
+
+.top-creator-name .card-grid .col-two .creator-source {
+    font-size: 14px;
+    font-weight: 500;
+    color: #0059b3;
+}

@@ -1,0 +1,44 @@
+.Navbar-main{
+    background-color: #001a33;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px 10px;
+}
+
+.Navbar-main .logo-image{
+    height: 40px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Navbar-main .link{
+    margin-left: 20px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 2px;
+}
+
+.Navbar-main .link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: width 2s ease;
+    background-color: white;
+}
+
+.Navbar-main .link:hover::after {
+    width: 100%;
+}
+
+.Navbar-main .link i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+

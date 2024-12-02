@@ -1,0 +1,99 @@
+.header-main .topic-card {
+    background: rgb(244, 244, 244);
+    padding: 50px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.header-main .topic-card .title-1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-main .topic-card .title-2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #00264d;
+}
+
+.header-main .topic-card .title-2 span {
+    color: #0059b3;
+}
+
+.header-main .image-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.header-main .image-card .header-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.header-main .image-card .info-content {
+    text-align: left;
+}
+
+.header-main .image-card .info-content .news-logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.header-main .image-card .info-content .news-logo span {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px 5px;
+    color: rgb(93, 93, 93);
+}
+
+.header-main .image-card .info-content .news-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 2.5rem;
+    margin-bottom: 5px;
+    color: #00264d;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.5em * 3);
+    white-space: pre-line;
+
+}
+
+.header-main .image-card .info-content .news-desc {
+    font-size: 15px;
+    font-weight: 400;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.5em * 3);
+    white-space: pre-line;
+    line-height: 1.5rem;
+}
+
+.header-main .image-card .info-content .news-category {
+    margin-top: 20px;
+}
+
+.header-main .image-card .info-content .news-category .category {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0059b3;
+}
+
+.header-main .image-card .info-content .news-category span {
+    font-size: 15px;
+    font-weight: 500;
+}

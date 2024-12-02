@@ -1,0 +1,123 @@
+.footer-main {
+    margin-top: 100px;
+}
+
+.footer-main .subscribe-card {
+    background: rgb(244, 244, 244);
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-main .subscribe-card .sub-title {
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.footer-main .subscribe-card .main-title {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: #00264d;
+}
+
+.footer-main .subscribe-card .main-title b {
+    color: #0059b3;
+    font-weight: 500;
+}
+
+.footer-main .subscribe-card .search-input {
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    padding: 0px 200px 0px 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.footer-main .subscribe-card .subscribe-btn {
+    height: 40px;
+    background-color: #00264d;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer-main .links-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #001a33;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.footer-main .links-card {
+    text-align: left;
+}
+
+.footer-main .links-card .logo-part .logo .logo-image {
+    width: 150px;
+    height: 50px;
+    object-fit: cover;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.footer-main .links-card .logo-part .sub-title {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 0px;
+    color: white;
+}
+
+.footer-main .links-card .logo-part .social-media {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.footer-main .links-card .logo-part .social-media i {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-main .links-card .link-set .name {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.footer-main .links-card .link-set ul {
+    list-style: none;
+    /* Remove the bullets */
+    padding: 0;
+    /* Optional: Remove default padding */
+    margin: 0;
+    /* Optional: Remove default margin */
+}
+
+.footer-main .links-card .link-set ul li {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.663);
+}

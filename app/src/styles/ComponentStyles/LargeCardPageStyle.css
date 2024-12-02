@@ -1,0 +1,75 @@
+.large-full-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.large-full-card .card-image{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+    filter: brightness(0.5);
+}
+
+.large-full-card .news-logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+
+}
+
+.large-full-card .news-logo span{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.large-full-card .card-details .news-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+}
+
+.large-full-card .card-details .news-desc{
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-top: 10px;
+
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: calc(1.5em * 4);
+    white-space: pre-line;
+    line-height: 1.5rem;
+}
+
+.large-full-card .card-details{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    text-align: left;
+}
+
+.large-full-card .news-category{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 0px !important;
+    border: none;
+    bottom: 0;
+    color: white;
+}
+
+.large-full-card .card-details .read-time{
+    margin-left: 10px;
+}

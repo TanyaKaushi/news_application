@@ -1,0 +1,27 @@
+.business-sports-main {
+    margin-top: 0px;
+}
+
+.business-sports-main .title {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #00264d;
+
+}
+
+.business-sports-main .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.business-sports-main .grid .col-one,
+.col-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
